@@ -3,8 +3,9 @@ const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 
 // Replace with a secure way to store your OpenAI API key (e.g., environment variable or backend)
-const API_KEY = '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';
+const API_KEY = 'sk-proj-q8cVGnrRvYVGEKT3G72glsjMo0OXPQjergYf58UpNFZeHD5LGU9LOzA8zmz6x1CFpv2EhI9_4gT3BlbkFJj9t9xcyS2AwrELdSVpGHXYYXP9svEEZwvEnJgQa7ApeXkYpTXyeNUpidhrj19PBM9ZNkspaU0Ask-proj-d7e0K32ftfieGVYeBXu5OWhxdZiO6Lwd_wLuT8cv2yoS5VyCKyngBCXiZbRkNya9ZhfJ3hGMijT3BlbkFJc-bdipgETDvAitI7hPZjagBU9obY97Ly5XFuOZloAz9u2RpWKIptUdRF7fNE10txvWCWiwjv8A';
 const API_URL = 'https://api.openai.com/v1/chat/completions';
+
 
 // Function to add a message to the chat box
 function addMessageToChat(message, isUser) {
